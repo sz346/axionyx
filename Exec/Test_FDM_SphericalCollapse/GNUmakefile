@@ -1,15 +1,15 @@
-FFTW_DIR ?= /usr/users/cbehren2/local_libs/lib
+FFTW_DIR ?= /usr/local/lib
 
 # AMREX_HOME defines the directory in which we will find all the BoxLib code
-AMREX_HOME ?= ../../../amrex
+AMREX_HOME ?= /home/syzhang/amrex
 
-HPGMG_DIR ?= ../../Util/hpgmg/finite-volume
+HPGMG_DIR ?= /home/syzhang/hpgmg/finite-volume
 
 # TOP defines the directory in which we will find Source, Exec, etc
 TOP = ../..
 
 # compilation options
-COMP    = intel #gnu  # intel
+COMP    = gnu
 
 USE_MPI = TRUE
 USE_OMP = TRUE
